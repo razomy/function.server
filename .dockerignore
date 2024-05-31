@@ -1,0 +1,4 @@
+# from .gitignore
+.idea
+venv
+node_modules
