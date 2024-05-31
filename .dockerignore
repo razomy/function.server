@@ -1,4 +1,13 @@
-# from .gitignore
+# region from .gitignore
+
+# IDE
 .idea
+
+# depenendancies
 venv
 node_modules
+
+# source depenendancies
+razomy/python
+
+# endregion from .gitignore

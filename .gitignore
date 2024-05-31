@@ -1,3 +1,9 @@
+# IDE
 .idea
+
+# depenendancies
 venv
 node_modules
+
+# source depenendancies
+razomy/python

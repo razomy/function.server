@@ -33,7 +33,8 @@
 2. `mkdir razomy` `cd razomy`
     1. `git clone git@github.com:razomy/python.git`;
     2. `git clone git@github.com:razomy/function.server.git`;
-    3. `ln -s python function.server/razomy/python`.
+    3. `ln -s python function.server/razomy`.
+    4. `cd function.server`.
 
 3. Init venv
 
