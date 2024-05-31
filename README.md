@@ -7,19 +7,21 @@
 - I want to live(make) in a world of peace, honesty, and support.
 - "Razomy" means together; we work together to develop the world.
 - Non-profit, investment only.
-- Open and without borders; everyone contributing positively is welcome. 
+- Open and without borders; everyone contributing positively is welcome.
 
 ### Product
 
 - Function is a web application for executing operational tasks.
 
 - Functionalities include:
-  - Converting files into different types
-  - Editing images
+    - Converting files into different types;
+    - Editing images.
 
 - You can extend the functionality as needed:
-  - Ensure compliance
-  - Make it pluggable for ease of use
+    - Ensure compliance;
+    - Make it pluggable for ease of use.
+
+- Web site: https://function.razomy.com
 
 ## Development
 
@@ -29,9 +31,9 @@
    https://www.python.org/downloads/
 
 2. `mkdir razomy` `cd razomy`
-    1. `git clone razomy/python `
-    2. `git clone razomy/function.server`
-    3. `ln python function.server/razomy/python`
+    1. `git clone git@github.com:razomy/python.git`;
+    2. `git clone git@github.com:razomy/function.server.git`;
+    3. `ln -s python function.server/razomy/python`.
 
 3. Init venv
 
