@@ -1,6 +1,6 @@
 def app():
-    from razomy.function.server import app_lib
-    return app_lib.app
+    from razomy.function.server import app_module
+    return app_module.app
 
 
 if __name__ == '__main__':

@@ -33,7 +33,7 @@
 2. `mkdir razomy` `cd razomy`
     1. `git clone git@github.com:razomy/python.git`;
     2. `git clone git@github.com:razomy/function.server.git`;
-    3. `ln -s python function.server/razomy`.
+    3. `ln -sf ROOT_DIR_PATH/python/razomy/python ROOT_DIR_PATH/function.server/razomy/python`. replace ROOT_DIR_PATH with absolute folder path.
     4. `cd function.server`.
 
 3. Init venv
@@ -45,7 +45,7 @@ python3 -m venv venv
 4. Install dependencies
 
 ```shell
-pip inistall -r requirements.txt
+pip install -r requirements.txt
 ```
 
 5. Run
